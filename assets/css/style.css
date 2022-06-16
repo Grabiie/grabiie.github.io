@@ -55,6 +55,10 @@ i.fa {
   margin: 20px auto;
 }
 
+.flip-horizontal-bottom {
+	animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
 .link {
   display: block;
   text-align: center;
@@ -63,7 +67,7 @@ i.fa {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 300;
-  transition: all .25s cubic-bezier(.08, .59, .29, .99);
+  transition: all .4s cubic-bezier(.455,.03,.515,.955);
   border-radius: 73px;
   background: linear-gradient(145deg, #224f90, #667a1d);
   box-shadow:
